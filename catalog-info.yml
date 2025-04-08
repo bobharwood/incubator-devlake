@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: incubator-devlake
+  description: Apache DevLake - The open-source dev data platform to ingest, analyze, and visualize software engineering data.
+  annotations:
+    github.com/project-slug: bobharwood/incubator-devlake
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - data-platform
+    - analytics
+    - metrics
+    - devops
+spec:
+  type: service
+  lifecycle: production
+  owner: user:guest
+  system: data-platforms
